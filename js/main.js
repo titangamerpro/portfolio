@@ -78,8 +78,8 @@ $(document).ready(function () {
       slidesToScroll: 1,
       arrows: false,
       dots:true,
-      // autoplay: true,
-      // autoplaySpeed: 1700,
+      autoplay: true,
+      autoplaySpeed: 1700,
       responsive: [
          {
             breakpoint: 1201,
@@ -105,6 +105,7 @@ $(document).ready(function () {
    $(".burger").click(function(){
       $(".burger").toggleClass("active")
       $(".nav").toggleClass("active")
+      $("body").toggleClass("hiden")
    })
 
 });
