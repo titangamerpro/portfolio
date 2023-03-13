@@ -74,6 +74,10 @@ body {
     background: var(--bg-dark);
 }
 
+.hiden{
+    overflow-y: hidden;
+}
+
 .header {
     height: 91px;
 }
